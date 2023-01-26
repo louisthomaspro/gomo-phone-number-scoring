@@ -1,14 +1,6 @@
 import requests
 
 # Scoring system
-# Number are divided into 2 and 4 digits
-# - Check if multiple of 10 or 11 (2 digits)
-# - Check if multiple of 1111 (4 digits)
-# - Check if suite if numbers exists (4 digits) (ex: 1234, 5432) ascending and descending
-# - Check if suite of decimal exists (2 digits) (ex: 21, 22) only ascending
-# - Check if favorite numbers exists (2 digits and 4 digits)
-# - Check if numbers appears multiple times (2 digits and 4 digits)
-
 scorePoints = {
   "multiple10": 2,
   "multiple11": 2,
